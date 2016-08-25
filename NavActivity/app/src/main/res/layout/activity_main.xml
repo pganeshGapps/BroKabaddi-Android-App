@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/Title1"
+        android:textSize="15pt"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="5dp"
+        android:autoText="false"
+        android:background="@color/accent_material_dark"
+        android:editable="false"
+        android:elegantTextHeight="false"
+        android:textAlignment="center"
+        android:textColorHighlight="#2d75f2"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/edit_message"
+        android:hint="@string/edit_message"
+        android:gravity="top"
+        android:layout_marginBottom="3dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/edit_teamB"
+        android:hint="@string/edit_teamB"
+        android:layout_marginBottom="4dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/edit_roundTime"
+        android:hint="@string/edit_roundTime"
+        android:layout_marginBottom="4dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/edit_riderLife"
+        android:hint="@string/edit_riderLife"
+        android:layout_marginBottom="5dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/button_send"
+        android:onClick="sendMessage"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#f44607"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+
+
+
+
+</LinearLayout>

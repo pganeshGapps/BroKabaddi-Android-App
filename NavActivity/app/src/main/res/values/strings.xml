@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavActivity</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="edit_teamA">First Team</string>
+    <string name="edit_teamB">Second Team</string>
+    <string name="edit_roundTime">a RoundTime(in min)</string>
+    <string name="edit_riderLife">RiderLife(in sec.)</string>
+    <string name="Title1">Enter Match Details</string>
+
+    <string name="button_send">Start Match</string>
+</resources>
